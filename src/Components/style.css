@@ -1,0 +1,56 @@
+.LoginForm{
+    background:#e3e3e3;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    border: solid 0.5rem black;
+    padding: 1%;
+    margin-bottom: 10%;
+}
+.LoginForm h1{
+    color: Black; 
+    word-wrap: break-word;  
+}
+.LoginForm input{
+    border: solid 0.2rem black;
+    border-radius: 0.5rem;
+    width: 60%;
+    font-size: 1.5rem;
+    height: 10%;
+}
+.cardView{
+    width: 25%;
+    display:inline-block;
+    align-content: left;
+}
+.LoginForm a{
+    text-decoration: none;
+    color: #455d7a;
+}
+.LoginForm a:hover{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .Navbar{
+    position:sticky;
+    top:0px;
+    z-index: "5";
+  }
+  .list-container {
+    height: 200px; /* Adjust the height as per your requirements */
+    overflow-y: auto;
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+  }
+  
+  .scrollable-list {
+    list-style: none;
+    padding: 0;
+  }
